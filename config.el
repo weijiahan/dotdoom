@@ -44,7 +44,7 @@
 
 (setq scroll-margin 7)
 
-(setq dash-docs-docsets-path "~/.local/share/Zeal/Zeal/docsets")
+(setq dash-docs-docsets-path "~/.local/share/Zeal/Zeal/docsets/C++.docset")
 
 
 ;; Here are some additional functions/macros that could help you configure Doom:
@@ -63,3 +63,5 @@
 ;;
 ;; You can also try 'gd' (or 'C-c g d') to jump to their definition and see how
 ;; they are implemented.
+
+(load! "lisp/chinese.el")
