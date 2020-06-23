@@ -44,8 +44,15 @@
 
 (setq scroll-margin 7)
 
-(setq dash-docs-docsets-path "~/.local/share/Zeal/Zeal/docsets/C++.docset")
+;; (setq dash-docs-docsets-path (expand-file-name "/home/weijh/.local/share/Zeal/Zeal/docsets"))
 
+(setq +lookup-open-url-fn #'eww)
+
+;; ---------highlight-thing------------
+(setq highlight-thing-what-thing 'symbol)
+(setq highlight-thing-delay-seconds 0.5)
+(setq highlight-thing-limit-to-defun t)
+(setq highlight-thing-case-sensitive-p t)
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
